@@ -17,26 +17,26 @@ This project is licensed under the terms of the GNU GPLv3 license. A copy of the
 The include the following line in your HTML code.
 
 ```HTML
-<script defer src="https://rawgit.com/jagannathBhat/parallaxingObject/master/jbParallaxObj.min.js"></script>
+<script defer src="https://rawgit.com/jagannathBhat/parallaxingObject/master/parallaxingObject.min.js"></script>
 ````
 
 #### Download
 
-Download the javascript file [here](https://rawgit.com/jagannathBhat/parallaxingObject/master/jbParallaxObj.min.js). Then include the following line in your HTML code.
+Download the javascript file [here](https://rawgit.com/jagannathBhat/parallaxingObject/master/parallaxingObject.min.js). Then include the following line in your HTML code.
 
 ```HTML
-<script defer src="jbParallaxObj.min.js"></script>
+<script defer src="parallaxingObject.min.js"></script>
 ````
 
 ### 2. Add the class and attribute
 
-Add the class `jbParallaxObj` and the `parallaxSpeed` attribute to the HTML elements you want to parallax. The value of the `parallaxSpeed` controls the speed of the HTML elements. Higher the value, higher the speed.
+Add the class `jbParallaxingObject` and the `jbParallaxSpeed` attribute to the HTML elements you want to parallax. The value of the `jbParallaxSpeed` controls the speed of the HTML elements. Higher the value, higher the speed.
 
 
 ### Example:
 
 ```HTML
-<div class="jbParallaxObj" parallaxSpeed="20">Just Parallaxing</div>
+<div class="jbParallaxingObject" jbParallaxSpeed="20">Just Parallaxing</div>
 ```
 
 ## Demo
