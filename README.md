@@ -17,12 +17,12 @@ This project is licensed under the terms of the GNU GPLv3 license. A copy of the
 The include the following line in your HTML code.
 
 ```HTML
-<script defer src="https://rawgit.com/jagannathBhat/ParallaxObject/master/jbParallaxObj.min.js"></script>
+<script defer src="https://rawgit.com/jagannathBhat/parallaxingObject/master/jbParallaxObj.min.js"></script>
 ````
 
 #### Download
 
-Download the javascript file [here](https://rawgit.com/jagannathBhat/ParallaxObject/master/jbParallaxObj.min.js). Then include the following line in your HTML code.
+Download the javascript file [here](https://rawgit.com/jagannathBhat/parallaxingObject/master/jbParallaxObj.min.js). Then include the following line in your HTML code.
 
 ```HTML
 <script defer src="jbParallaxObj.min.js"></script>
@@ -41,7 +41,7 @@ Add the class `jbParallaxObj` and the `parallaxSpeed` attribute to the HTML elem
 
 ## Demo
 
-[Click Here](https://rawgit.com/jagannathBhat/ParallaxObject/master/demo/index.html)
+[Click Here](https://rawgit.com/jagannathBhat/parallaxingObject/master/demo/index.html)
 
 Code for the demo can be found in the demo directory in the root directory of the project.
 
