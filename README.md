@@ -19,7 +19,7 @@ This project is licensed under the terms of the GNU GPLv3 license. A copy of the
 #### Hosted
 
 
-The include the following line in your HTML code.
+Include the following line in your HTML code.
 
 
 ```HTML
