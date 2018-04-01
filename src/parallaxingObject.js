@@ -14,7 +14,6 @@ A copy of the lisence will be found in the root directory of the project as "LIC
       if (document.documentElement.scrollTop) y = document.documentElement.scrollTop;
       else  y = document.body.scrollTop;
       y = a.getAttribute("jbInit") - (y * a.getAttribute("jbParallaxSpeed") / 100);
-      console.log(a.innerHTML + y);
       a.style.transform = a.style.msTransform = a.style.WebkitTransform = a.style.transform.split(", ").slice(0, -1).concat([y + ")"]).join(", ");
     });
   }
