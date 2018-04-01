@@ -25,7 +25,6 @@ function prepare() {
     if (c) {
       for (i = c.indexOf("translate(") + 10; c[i] != ')'; i++);
       d = c.substring(c.indexOf("translate(") + 10, i - 2).split("px, ");
-      console.log(d);
     }
     a.setAttribute("jbInitX", d[0]);
     a.setAttribute("jbInitY", d[1]);
