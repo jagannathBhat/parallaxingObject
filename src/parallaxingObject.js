@@ -8,35 +8,30 @@ A copy of the lisence will be found in the root directory of the project as "LIC
 */
 (function() {
   var CLASSNAME = ".jbParallaxingObject"
+
   function move() {
-    document.querySelectorAll(CLASSNAME).forEach(function(a, b) {
-      var y;
-      if (document.documentElement.scrollTop) {
-        y = a.getAttribute("jbInitY") - (document.documentElement.scrollTop * a.getAttribute("jbParallaxSpeed") / 100);
-      } else {
-        y = a.getAttribute("jbInitY") - (document.body.scrollTop * a.getAttribute("jbParallaxSpeed") / 100);
-      }
-      a.style.transform = a.style.msTransform = a.style.WebkitTransform = "translate(" + a.getAttribute("jbInitX") + "px, " + y + "px)";
+    document.querySelectorAll(CLASSNAME).forEach(function(a) {
+      if (document.documentElement.scrollTop) y = document.documentElement.scrollTop;
+      else  y = document.body.scrollTop;
+      y = a.getAttribute("jbInit") - (y * a.getAttribute("jbParallaxSpeed") / 100);
+      console.log(a.innerHTML + y);
+      a.style.transform = a.style.msTransform = a.style.WebkitTransform = a.style.transform.split(", ").slice(0, -1).concat([y + ")"]).join(", ");
     });
   }
 
   function prepare() {
-    document.querySelectorAll(CLASSNAME).forEach(function(a, b) {
-      var c = a.style.transform,
-        d = [0, 0];
-      if (c) {
-        for (i = c.indexOf("translate(") + 10; c[i] != ')'; i++);
-        d = c.substring(c.indexOf("translate(") + 10, i - 2).split("px, ");
+    document.querySelectorAll(CLASSNAME).forEach(function(a) {
+      if (getComputedStyle(a).transform != "none") {
+        a.style.transform = getComputedStyle(a).transform;
+        a.setAttribute("jbInit", parseInt(getComputedStyle(a).transform.split(", ").splice(-1)));
       }
-      a.setAttribute("jbInitX", d[0]);
-      a.setAttribute("jbInitY", d[1]);
+      else {
+        a.style.transform = "matrix(1, 0, 0, 1, 0, 0)";
+        a.setAttribute("jbInit", 0);
+      }
     });
+    move();
   }
-  window.onload = function() {
-    prepare();
-    move();
-  };
-  window.onscroll = function() {
-    move();
-  };
+  window.onload = prepare;
+  window.onscroll = move;
 })();
