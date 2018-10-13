@@ -23,14 +23,13 @@ Include the following line in your HTML code.
 
 
 ```HTML
-<script defer src="https://rawgit.com/jagannathBhat/parallaxingObject/master/parallaxingObject.min.js"></script>
+<script defer src="https://raw.githubusercontent.com/jagannathBhat/parallaxingObject/master/parallaxingObject.min.js"></script>
 ````
 
 
 #### Download
 
-
-Download the javascript file [here](https://rawgit.com/jagannathBhat/parallaxingObject/master/parallaxingObject.min.js). Then include the following line in your HTML code.
+Download the javascript file [here](https://raw.githubusercontent.com/jagannathBhat/parallaxingObject/master/parallaxingObject.min.js). Then include the following line in your HTML code.
 
 
 ```HTML
