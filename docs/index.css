@@ -1,37 +1,73 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400';
+
 html, body {
-	background-color: #FAFAFA;
+	color: #424242;
+	cursor: default;
+	font-family: "Roboto", sans-serif;
+	font-size: 17px;
 	height: 100%;
 	margin: 0px;
 	width: 100%;
 }
 
-.jbParallaxingObject {
-	background-color: #212121;
-	color: #FFF;
-	height: 100px;
-	position: absolute;
-	width: 100px;
+body {
+	height: 200%;
 }
 
-#spacer, #spacer1, #spacer2, #spacer3, #spacer4 {
-	height: 100%;
+a {
+	color: #424242;
+	cursor: pointer;
+}
+
+h1 {
+	font-size: 3.6em;
+	font-weight: 300;
+	margin: 0px;
+	padding: 12px 0px 12px 0px;
+}
+
+p {
+	font-size: 0.9em;
+	font-style: italic;
+	margin: 0px;
+	padding: 12px 0px;
+}
+
+p:nth-child(2) {
+	font-size: 1.2em;
+}
+
+.centerizer {
+	display: table;
+	height: 50%;
 	width: 100%;
 }
 
-#spacer {
-	background-color: #F44336;
-	color: #FFF;
-	font-size: 36px;
+.centerizer--fixed {
+	background-color: #FAFAFA;
+	height: 100%;
+	left: 0px;
+	position: fixed;
+	top: 0px;
+	z-index: -1;
 }
 
-#spacer1 {
-	background-color: #2196F3;
+.centerizer-content {
+	display: table-cell;
+	height: 100%;
+	text-align: center;
+	vertical-align: middle;
+	width: 100%;
 }
 
-#spacer2 {
-	background-color: #4CAF50;
-}
-
-#spacer3 {
-	background-color: #FFEB3B;
+.ribbon {
+	background-image: url("ribbon.png");
+	background-position: center;
+	background-size: cover;
+	font-size: 1.2em;
+	margin: 0px auto;
+	padding: 8px 0px 28px 0px;
+	text-align: center;
+	width: 240px;
+	z-index: 3;
 }
