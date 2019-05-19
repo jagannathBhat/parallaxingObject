@@ -1,0 +1,37 @@
+html, body {
+	background-color: #FAFAFA;
+	height: 100%;
+	margin: 0px;
+	width: 100%;
+}
+
+.jbParallaxingObject {
+	background-color: #212121;
+	color: #FFF;
+	height: 100px;
+	position: absolute;
+	width: 100px;
+}
+
+#spacer, #spacer1, #spacer2, #spacer3, #spacer4 {
+	height: 100%;
+	width: 100%;
+}
+
+#spacer {
+	background-color: #F44336;
+	color: #FFF;
+	font-size: 36px;
+}
+
+#spacer1 {
+	background-color: #2196F3;
+}
+
+#spacer2 {
+	background-color: #4CAF50;
+}
+
+#spacer3 {
+	background-color: #FFEB3B;
+}
