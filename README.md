@@ -7,7 +7,7 @@ Prallaxing objects just float in your html page. It moves up/down in a speed dif
 ## License
 
 
-This project is licensed under the terms of the GNU GPLv3 license. A copy of the lisence will be found in the root directory of the project as "LICENSE.txt".
+This project is licensed under the terms of the MIT license. A copy of the lisence will be found in the root directory of the project as "LICENSE".
 
 
 ## How to
@@ -23,13 +23,13 @@ Include the following line in your HTML code.
 
 
 ```HTML
-<script defer src="https://raw.githubusercontent.com/jagannathBhat/parallaxingObject/master/parallaxingObject.min.js"></script>
+<script defer src="https://jagannathBhat.github.io/parallaxingObject/parallaxingObject.min.js"></script>
 ````
 
 
 #### Download
 
-Download the javascript file [here](https://raw.githubusercontent.com/jagannathBhat/parallaxingObject/master/parallaxingObject.min.js). Then include the following line in your HTML code.
+Download the javascript file [here](https://github.com/jagannathBhat/parallaxingObject/releases/download/v1.0/parallaxingObject.min.js). Then include the following line in your HTML code.
 
 
 ```HTML
@@ -54,7 +54,7 @@ Add the class `jbParallaxingObject` and the `jbParallaxSpeed` attribute to the H
 ## Demo
 
 
-[Click Here](https://rawgit.com/jagannathBhat/parallaxingObject/master/demo/index.html)
+[Click Here](https://jagannathBhat.github.io/parallaxingObject)
 
 
 Code for the demo can be found in the demo directory in the root directory of the project.
