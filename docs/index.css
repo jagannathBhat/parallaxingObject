@@ -12,7 +12,7 @@ html, body {
 }
 
 body {
-	height: 200%;
+	height: 250%;
 }
 
 a {
@@ -40,7 +40,7 @@ p:nth-child(2) {
 
 .centerizer {
 	display: table;
-	height: 50%;
+	height: 40%;
 	width: 100%;
 }
 
@@ -50,7 +50,6 @@ p:nth-child(2) {
 	left: 0px;
 	position: fixed;
 	top: 0px;
-	z-index: -1;
 }
 
 .centerizer-content {
@@ -59,16 +58,4 @@ p:nth-child(2) {
 	text-align: center;
 	vertical-align: middle;
 	width: 100%;
-}
-
-.ribbon {
-	background-image: url("ribbon.png");
-	background-position: center;
-	background-size: cover;
-	font-size: 1.2em;
-	margin: 0px auto;
-	padding: 8px 0px 28px 0px;
-	text-align: center;
-	width: 240px;
-	z-index: 3;
 }
