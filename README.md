@@ -7,7 +7,7 @@ Prallaxing objects just float in your html page. It moves up/down in a speed dif
 ## License
 
 
-This project is licensed under the terms of the MIT license. A copy of the lisence will be found in the root directory of the project as "LICENSE".
+This project is licensed under the terms of the MIT license. A copy of the license will be found in the root directory of the project as "LICENSE".
 
 
 ## How to
